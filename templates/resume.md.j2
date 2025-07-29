@@ -1,0 +1,36 @@
+# {{ name }}
+{{ location }}<br/>
+<a href="mailto:{{email}}">{{ email }}</a> • <a href="tel:{{phone}}">{{ phone }}</a> • <a href="{{website_url}}" target="_blank">{{ website_title }}</a><br/>
+<a href="{{ github_url }}" target="_blank">Github: {{ github_username }}</a> • <a href="{{ linkedin_url }}" target="_blank">Linkedin: {{ linkedin_username }}</a>
+
+## Professional Summary
+{{ summary }}
+
+## Key Skills
+{{ skills | join(", ") }}
+
+## Work Experience
+{% for exp in experience %}
+**{{ exp.title }}** - {{ exp.company }} ({{ exp.start }} - {{ exp.end }})
+{{  exp.location }}
+- {{ exp.highlights | join("\n- ") }}
+
+{% endfor %}
+
+## Projects
+{% for p in projects %}
+**{{ p.name }}** - {{ p.role }}
+- {{ p.description }}
+- <strong>Stack:</strong>  {{ p.stack | join(", ") }}
+- <strong>Impact</strong> {{ p.impact }}
+- <a href="{{ p.link }}">{{ p.link }}</a>
+{% endfor %}
+
+## Education
+{{ education.degree }}</br>
+{{ education.school }} - {{ education.completed }} <strong>(GPA: {{ education.gpa }})</strong><br/>
+Major: {{ education.major }}, Minor: {{ education.minor }}<br/>
+<strong>Coursework:</strong> {{ education.coursework | join(", ") }}
+
+## Technology
+{{ technologies | join(", ") }}
