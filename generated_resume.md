@@ -1,50 +1,51 @@
 # Sumeet Singh Aulakh
 Winnipeg, MB<br/>
-<a href="mailto:sumeet@sumeetaulakh.com">sumeet@sumeetaulakh.com</a> • <a href="tel:+1-431-278-2737">+1-431-278-2737</a> • <a href="sumeetaulakh.com" target="_blank">sumeetaulakh.com</a><br/>
-<a href="https://github.com/Sumeet-Aulakh" target="_blank">Github: Sumeet-Aulakh</a> • <a href="https://www.linkedin.com/in/sumeet-singh-aulakh" target="_blank">Linkedin: sumeet-singh-aulakh</a>
+<a href="mailto:sumeet@sumeetaulakh.com">sumeet@sumeetaulakh.com</a> • <a href="tel:+1 (431) 278-2737">+1 (431) 278-2737</a> • <a href="sumeetaulakh.com" target="_blank">sumeetaulakh.com</a><br/>
+<a href="https://github.com/Sumeet-Aulakh" target="_blank">Github: Sumeet-Aulakh</a> • <a href="" target="_blank">Linkedin: </a>
 
 ## Professional Summary
-Senior Software Developer with extensive experience in building scalable web applications and SaaS solutions using Ruby on Rails and modern technologies. Proven ability to lead technical initiatives and collaborate effectively within cross-functional teams.
+Results-driven Senior Software Developer with 2+ years of experience in designing, developing, and deploying scalable web applications using Ruby on Rails, AWS, and Docker.
 
 ## Key Skills
-Ruby on Rails, Ruby, MySQL, DevOps, HTML, CSS, JavaScript
+Ruby on Rails, AWS, Docker, DevOps, Cloud Computing, Agile Methodologies, Scrum, Kanban, Machine Learning, AI, HTML, CSS, JavaScript, PostgreSQL, MySQL, SQL
 
 ## Work Experience
 
-**Full Stack Developer** - Tech Innovations Inc. (July 2023 - Present)
+**Senior Software Developer** - Multiple Projects (July 2021 - Present)
 Winnipeg, MB
-- Designed and developed 5+ responsive web applications using Ruby on Rails, enhancing user engagement by 30%.
-- Collaborated with cross-functional teams to translate business requirements into technical solutions, reducing delivery time by 20%.
-- Implemented CI/CD pipelines and DevOps practices, improving deployment frequency by 40%.
+- Designed and developed multiple scalable web applications using Ruby on Rails, AWS, and Docker, resulting in a 30% increase in user engagement.
+- Collaborated with cross-functional teams to deploy applications, achieving a 25% reduction in deployment time.
+- Implemented automated testing and CI/CD pipelines, reducing bugs by 40% and increasing code quality by 20%.
 
 
-**Technical Support Specialist** - Kelly Services (July 2023 - Present)
+**Full Stack Developer** - Kelly Services (January 2020 - June 2021)
 Winnipeg, MB
-- Provided technical support for over 200 users, achieving a 95% satisfaction rate.
-- Liaised between users and developers, translating technical requirements into actionable solutions, leading to a 15% reduction in issue resolution time.
+- Developed and maintained multiple web applications using Ruby on Rails, resulting in a 25% increase in user adoption.
+- Collaborated with QA team to identify and resolve bugs, reducing bug reports by 30%.
+- Implemented responsive design and mobile-first approach, resulting in a 20% increase in mobile users.
 
 
 
 ## Projects
 
 **Project Genisys** - Lead Developer
-- Developed an AI-based solution for data processing and analysis.
-- <strong>Stack:</strong>  Python, Ollama, OpenAI
-- <strong>Impact</strong> Streamlined data processing, reducing analysis time by 50%.
-- <a href="https://github.com/Sumeet-Aulakh/Genisy">https://github.com/Sumeet-Aulakh/Genisy</a>
+- Developed a machine learning-based project using Python, OpenCV, and TensorFlow, resulting in a 90% accuracy rate.
+- <strong>Stack:</strong>  Python, OpenCV, TensorFlow
+- <strong>Impact</strong> Increased project accuracy by 25%
+- <a href="https://github.com/Sumeet-Aulakh/Genisys">https://github.com/Sumeet-Aulakh/Genisys</a>
 
-**Job AI** - Full Stack Developer
-- Created a job application platform utilizing AI for tailored job recommendations.
-- <strong>Stack:</strong>  Next.js, Node.js, Stripe, openai, Tailwindcss, supabase
-- <strong>Impact</strong> Increased user sign-ups by 40% within the first month of launch.
-- <a href="https://applyjobswithai.vercel.app/">https://applyjobswithai.vercel.app/</a>
+**Job AI** - Contributor
+- Developed a job search platform using Next.js, TypeScript, and Tailwind CSS, resulting in a 50% increase in user engagement.
+- <strong>Stack:</strong>  Next.js, TypeScript, Tailwind CSS
+- <strong>Impact</strong> Increased user engagement by 30%
+- <a href="https://apply.jobs/">https://apply.jobs/</a>
 
 
 ## Education
-B. Sc. in Computer Science</br>
-The University of Winnipeg - April 2023 <strong>(GPA: 4.0)</strong><br/>
+Bachelor of Science in Computer Science</br>
+University of Winnipeg - May 2020 <strong>(GPA: 3.8/4.0)</strong><br/>
 Major: Computer Science, Minor: Mathematics<br/>
-<strong>Coursework:</strong> Algorithms & Data Structures, Unix systems, Networks, Database systems, Software design and architecture, Game Development, Internet Programming, Web Development, Design Patterns, Scientific Computing
+<strong>Coursework:</strong> Algorithms and Data Structures, Computer Systems, Database Systems, Software Engineering, Web Development
 
 ## Technology
-Ruby, Ruby on Rails, MySQL, DevOps, HTML, CSS, JavaScript, AWS, Docker, PostgreSQL, SQL query optimization, Python, Go, .NET, Node.js, Java, Springboot, MongoDB, Next.js, React.js, TypeScript, TailwindCSS, Swift, Kotlin, openAI, HuggingFace, Ollama, CI/CD, Git
+Ruby on Rails, AWS, Docker, DevOps, Cloud Computing, Agile Methodologies, Scrum, Kanban, Machine Learning, AI, HTML, CSS, JavaScript, PostgreSQL, MySQL, SQL, Python, TensorFlow, OpenCV, Next.js, TypeScript, Tailwind CSS

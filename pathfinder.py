@@ -21,7 +21,7 @@ if not USE_OLLAMA:
 def call_ollama(model: str, prompt: str) -> str:
     """
     Very lightweight wrapper around `ollama run`
-    Make sure you have the model pulled locally (e.g., `ollama pull llama3`).
+    Make sure you have the model pulled locally (e.g., `ollama pull llama4`).
     """
     import subprocess, json as pyjson, tempfile
     cmd = ["ollama", "run", model, prompt]
@@ -46,7 +46,7 @@ def call_openai(model: str, system: str, user: str) -> str:
     return response.choices[0].message.content
 
 # --------- Helper Function -----------
-def llm_json(prompt: str, model_openai="gpt-4o-mini",model_ollama="qwen3:8b") -> str:
+def llm_json(prompt: str, model_openai="gpt-4o-mini",model_ollama="llama4") -> str:
     if USE_OLLAMA:
         out = call_ollama(model_ollama, prompt)
     else:

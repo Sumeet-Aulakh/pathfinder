@@ -1,3 +1,1 @@
-- Make tool to give out current date 
-- connect it to llm, also check ollama 
-- if it is working and make llm_json work for thinking model as it gives out too much information
+- Make tool to give out current date
