@@ -1,0 +1,118 @@
+STRUCTURE_PROMPT="""
+You are an expert resume analyst. Read the job description and return a STRICT JSON object with:
+
+Rules:
+Add your custom prompt here.
+.
+.
+.
+
+Job Description:
+ {jd}
+
+ return ONLY valid JSON.
+"""
+
+RESUME_PROMPT="""
+You are a resume generator. Create a fictitious (but realistic) resume tailored to the following extracted requirements:
+
+{structured_requirements}
+
+Rules:
+Add your custom prompt here.
+- Personal Information
+{{
+    "name": "string",
+    .
+    .
+    .
+}}
+
+Rules:
+Add your custom prompt here.
+.
+.
+.
+-Return data in this schema
+{{
+  "name": "string",
+  "email": "string@example.com",
+  "phone": "+1-XXX-XXX-XXXX",
+  "location": "City, Country",
+  "website_url": "string",
+  "website_title": "....com",
+  "linkedin_url": "https://...",
+  "linkedin_username": "string",
+  "github_url": "https://...",
+  "github_username": "string",
+  "summary": "2-3 line professional summary",
+  "skills": ["..."],
+  "experience": [
+    {{
+      "title": "string",
+      "company": "string",
+      "location": "string",
+      "start": "Mon YYYY",
+      "end": "Present or Mon YYYY",
+      "highlights": ["quantified impact ...", "..."]
+    }}
+  ],
+  "projects": [
+    {{
+      "name": "string",
+      "role": "string",
+      "description": "string",
+      "stack": ["..."],
+      "impact": "quantified impact",
+      "link": "string",
+    }}
+  ],
+  "education": {{
+    "degree": "string",
+    "school": "string",
+    "completed": "Month YYYY"
+    "gpa": "string",
+    "major": "string",
+    "minor": "string",
+    "coursework": ["..."]
+  }},
+  "technologies": ["..."]
+}}
+
+return ONLY valid JSON.
+"""
+
+COVER_LETTER_PROMPT="""
+You are a professional career coach and cover letter writer.
+Write a concise, compelling cover letter tailored to the following job description and resume:
+
+Job Description:
+{structured_requirements}
+
+Resume Data:
+{resume_data}
+
+Requirements:
+-Add custom rules here:
+.
+.
+.
+- Return valid JSON with this schema:
+{{
+    "name": "string",
+    "email": "string",
+    "phone": "string",
+    "website_url": "string",
+    "website_title": "....com",
+    "current_date" : "Month DD, YYYY",
+    "company": "string",
+    "address": "string",
+    "cover_letter_body": "string"
+}}
+
+"""
+
+
+Note:
+-Use double curly braces {{, }} for giving return type.
+-Contact me for full prompt
