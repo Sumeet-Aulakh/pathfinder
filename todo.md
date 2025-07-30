@@ -1,1 +1,1 @@
-- Make tool to give out current date
+- Add a ui for copying basic stuff

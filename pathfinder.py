@@ -6,15 +6,38 @@ from rich import print
 from markdown_pdf import MarkdownPdf
 from markdown_pdf import Section
 import datetime
-# from ollama import chat
-# from ollama import ChatResponse
+from ollama import chat
+from ollama import ChatResponse
 
 # --------- choose backend ----------
-USE_OLLAMA = False
+USE_OLLAMA = True
 
 # --------- OpenAI ---------------
 if not USE_OLLAMA:
     from openai import OpenAI
+
+# ---------Tools Definitions------
+def get_current_date() -> str:
+    """
+    Get the current date as a string
+    :return: Date in format Month DD, YYYY
+    """
+    x = datetime.datetime.now()
+    return x.strftime("%B %d, %Y")
+
+get_current_date_tool = {
+    "type": "function",
+    "function": {
+        "name": "get_current_date",
+        "description": "Get the current date as a string",
+        "parameters": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+        }
+    }
+}
+
 
 # --------- Ollama ---------------
 def call_ollama(model: str, prompt: str) -> str:
@@ -22,10 +45,50 @@ def call_ollama(model: str, prompt: str) -> str:
     Very lightweight wrapper around `ollama run`
     Make sure you have the model pulled locally (e.g., `ollama pull llama4`).
     """
-    import subprocess
-    cmd = ["ollama", "run", model, prompt]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    return result.stdout.strip()
+    # import subprocess
+    # cmd = ["ollama", "run", model, prompt]
+    # result = subprocess.run(cmd, capture_output=True, text=True)
+    # return result.stdout.strip()
+    messages = [
+        {
+            "role": "system",
+            "content": f"You output only valid JSON. Remember to get date from get_current_date tool"
+        },
+        {
+            "role": "user",
+            "content": prompt,
+        }
+    ]
+
+    available_functions = {
+        "get_current_date": get_current_date,
+    }
+
+    while(True):
+        response = chat(model, messages=messages, tools=[get_current_date_tool])
+        print(response)
+
+        if response.message.tool_calls:
+            for tool in response.message.tool_calls:
+                if function_to_call :=available_functions.get(tool.function.name):
+                    print(f"Calling {tool.function.name}...")
+                    output = function_to_call(**tool.function.arguments)
+                    print("Function output:", output)
+                else:
+                    print(f"No function found: {tool.function.name}.")
+
+        if response.message.tool_calls:
+            messages.append(response.message)
+            messages.append({
+                "role": "tool",
+                "content": str(output),
+                "tool_name": tool.function.name,
+            })
+        else:
+            return response.message.content
+
+
+
 
 # --------- Prompts ---------------
 from prompts import STRUCTURE_PROMPT, RESUME_PROMPT, COVER_LETTER_PROMPT
@@ -43,11 +106,6 @@ tools = [{
         },
     }
 }]
-
-def get_current_date() -> str:
-    x = datetime.datetime.now()
-    return x.strftime("%B %d, %Y")
-
 
 # --------- OpenAI ---------------
 def call_openai(model: str, system: str, user: str) -> str:
@@ -182,3 +240,4 @@ def save_file(in_path: str, out_path: str):
 
 if __name__ == "__main__":
     main()
+    # print(call_ollama("llama4", "What is the date today?"))

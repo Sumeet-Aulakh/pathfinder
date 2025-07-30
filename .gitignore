@@ -2,3 +2,4 @@
 prompts.py
 .venv/
 .idea/
+__pycache__/
