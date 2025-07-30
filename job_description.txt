@@ -1,116 +1,107 @@
-Ruby on Rails Senior Software Developer- job post
-Skillsetter.com
-Remote
-$150,000–$200,000 a year - Full-time
-Skillsetter.com
-Remote
-$150,000–$200,000 a year
-Profile insights
-Here’s how the job qualifications align with your profile.
-Skills
+Affirm logo
+Affirm
+Share
+Show more options
+Software Engineer II (Account Management) 
+Winnipeg, MB · 1 week ago · 10 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
 
-Ruby on Rails
 
-Ruby
+ Full-time
+Matches your job preferences, job type is Full-time.
 
-MySQL
-+ show more
+Apply
 
-Do you have experience in Ruby on Rails?
-Education
+Save
+Save Software Engineer II (Account Management)  at Affirm
+Software Engineer II (Account Management)
+Affirm · Winnipeg, MB
 
-Bachelor's
-&nbsp;
-Job details
-Here’s how the job details align with your profile.
-Pay
+Apply
 
-$150,000–$200,000 a year
-Job type
+Save
+Save Software Engineer II (Account Management)  at Affirm
+Show more options
+Your profile matches several required qualifications
 
-Full-time
-Shift and schedule
+Show match details
 
-8 hour shift
+BETA
 
-Monday to Friday
-&nbsp;
+Is this information helpful?
+
+
+
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+
+Retry Premium for CA$0
+People you can reach out to
+Clyde profile photo
+Clyde profile photo
+Clyde Grey 
+· 2nd
+Staff Software Engineer at Affirm
+School alum from The University of Winnipeg
+
+Connect
+About the job
+Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
+
+Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
+
+What You'll Do
+
+ With the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.
+ You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.
+ You will support the operations and availability of your team’s artifacts by creating and monitoring metrics, escalating when needed, and supporting “keep the lights on” & on-call efforts.
+ You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process.
+
+What We Look For
+
+ You have a total of 1.5+ years of experience as a software engineer.
+ You have experience designing, developing and launching backend systems and are proficient in one of Python or Kotlin.
+ You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.
+ You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.
+ You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.
+ Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.
+ You have strong verbal and written communication skills that support effective collaboration with our global engineering team.
+
+Pay Grade - L
+
+Equity Grade - 5
+
+Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.
+
+Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company).
+
+CAN base pay range per year: $125000 - $175000
+
+Additional Benefits Include
+
+ Flexible Spending Wallets for tech, food and lifestyle
+ Away Days - wellness days to take off work and recharge
+ Learning & Development programs
+ Parental benefits
+ Employee Resource & Community Groups
+
+Please note that visa sponsorship is not available for this position.
+
+LI-Remote
+
+Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities.
+
 Benefits
-Pulled from the full job description
-Paid time off
-Dental care
-Stock options
-Extended health care
-Work from home
-Flexible schedule
-&nbsp;
-Full job description
-Position Overview: We are seeking a talented and experienced Senior Software Developer who is excited to build a cutting-edge, research-driven system for assessing, learning, and practicing interpersonal skills. It's a weird niche but we know "how" you communicate is often more important than "what" you communicate.
 
-Did you know that researchers can predict which surgeons are likely to get sued for malpractice by listening only to their tone of voice during patient consults?
-Did you know that nursing managers that "run a tight ship" are four times more likely to have nurses cover-up errors administering prescribed drugs?
-In addition to being curious about nerdy research findings like the above, the ideal candidate will have at least five years of hands-on experience developing web applications using Ruby on Rails and handling dev ops responsibilities for a large and scalable SaaS platform. You are passionate about harnessing the rapidly evolving landscape of AI tools to revolutionize the training sector. As a senior developer, you obsess about coding best practices, receiving critical feedback, performance optimization, and have the patience to support the development of others more junior than you.
+We’re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:
 
-Job Details
+Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents 
+Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses
+Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge
+ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount
 
-This is a full-time, permanent position with a 3-month probationary period to start
-Ideal candidates located in or near Vancouver, BC, Canada
-Remote work, work-from-home, flexible work hours
-Responsibilities:
+We believe It’s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process.
 
-Design, develop, and maintain robust and scalable web applications using Ruby on Rails, adhering to coding best practices and architectural principles.
-Maintain and upgrade our SaaS infrastructure.
-Collaborate with cross-functional teams, including product development specialists, UX designers, AI researchers, quality assurance (QA), and customer success to translate business requirements into technical solutions.
-Participate and conduct regular code reviews to improve every dev team member’s skills and output.
-Stay updated on the latest trends, tools, and technologies in web development and leverage them to enhance the efficiency and effectiveness of our development process.
-Take ownership of technical initiatives, drive process improvements, and advocate for best practices within the development team.
-Participate in agile methodologies, including sprint planning, daily stand-ups, and retrospectives, to ensure timely and successful delivery of features and enhancements.
-Qualifications:
+[For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records.
 
-Bachelor's degree in Computer Science, Engineering, or a related field.
-Minimum of five years of hands-on experience in Ruby on Rails development, with a strong understanding of Ruby language fundamentals and Rails conventions.
-Strong dev ops skills and experience (AWS, Docker, Chef, Azure)
-Proficiency in front-end technologies such as HTML, CSS, JavaScript, and front-end frameworks.
-Experience with relational databases (e.g., PostgreSQL, MySQL) and proficiency in SQL query optimization.
-Strong understanding of software development principles, design patterns, and best practices.
-Excellent communication and interpersonal skills, with the ability to collaborate effectively with cross-functional teams and mentor junior developers.
-Demonstrated ability to work quickly and effectively, prioritize tasks, and meet aggressive deadlines.
-Passion for continuous learning, professional development, and staying updated on industry trends and emerging technologies.
-Compensation & Benefits
-
-Competitive salary commensurate with experience, ranging from $150K-$250K. Equity will be considered for the right candidate.
-Dental care
-Extended health care
-Paid time off
-If you are a seasoned Ruby on Rails developer looking for meaningful work, and pushing the boundaries of what's possible with technology, we want to hear from you!
-
-Job Type: Full-time
-
-Pay: $150,000.00-$200,000.00 per year
-
-Additional pay:
-
-Bonus pay
-Benefits:
-
-Dental care
-Extended health care
-Paid time off
-Stock options
-Work from home
-Schedule:
-
-8 hour shift
-Monday to Friday
-Application question(s):
-
-What’s the most important thing to get right when building software?
-In one sentence, what makes you a good senior engineer?
-Education:
-
-Bachelor's Degree (preferred)
-Work Location: Remote
-
-Application deadline: 2025-06-30
-
-&nbsp;
+By clicking "Submit Application," you acknowledge that you have read Affirm's Global Candidate Privacy Notice and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.

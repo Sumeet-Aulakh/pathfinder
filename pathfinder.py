@@ -2,11 +2,10 @@ import os
 import json
 from dotenv import load_dotenv
 from jinja2 import Environment, FileSystemLoader
-from pymupdf import paper_size
 from rich import print
-from rich.prompt import Prompt
 from markdown_pdf import MarkdownPdf
 from markdown_pdf import Section
+import datetime
 # from ollama import chat
 # from ollama import ChatResponse
 
@@ -23,7 +22,7 @@ def call_ollama(model: str, prompt: str) -> str:
     Very lightweight wrapper around `ollama run`
     Make sure you have the model pulled locally (e.g., `ollama pull llama4`).
     """
-    import subprocess, json as pyjson, tempfile
+    import subprocess
     cmd = ["ollama", "run", model, prompt]
     result = subprocess.run(cmd, capture_output=True, text=True)
     return result.stdout.strip()
@@ -31,19 +30,69 @@ def call_ollama(model: str, prompt: str) -> str:
 # --------- Prompts ---------------
 from prompts import STRUCTURE_PROMPT, RESUME_PROMPT, COVER_LETTER_PROMPT
 
+# --------- Tools for openAI ------
+tools = [{
+    "type": "function",
+    "function": {
+        "name": "get_current_date",
+        "description": "Get the current date",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+        },
+    }
+}]
+
+def get_current_date() -> str:
+    x = datetime.datetime.now()
+    return x.strftime("%B %d, %Y")
+
 
 # --------- OpenAI ---------------
 def call_openai(model: str, system: str, user: str) -> str:
-    client = OpenAI(api_key=os.getenv("OLLAMA_API_KEY"))
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system","content": system},
-            {"role": "user","content": user,}
-        ],
-        temperature=0.4
-    )
-    return response.choices[0].message.content
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    messages = [
+                {"role": "system","content": system},
+                {"role": "user","content": user,}
+            ]
+    while (True):
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            tools=tools,
+            tool_choice="auto",
+            temperature=0.4
+        )
+        print(response)
+
+        msg = response.choices[0].message
+        if hasattr(msg, "tool_calls") and msg.tool_calls :
+            tool_call = msg.tool_calls[0]
+            messages.append({
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [
+                    {
+                        "id": tool_call.id,
+                        "type": tool_call.type,
+                        "function": {
+                            "name": tool_call.function.name,
+                            "arguments": tool_call.function.arguments,
+                        }
+                    }
+                ]
+            })
+            if tool_call.function.name == "get_current_date":
+                date = get_current_date()
+                messages.append({
+                    "role": "tool",
+                    "tool_call_id": tool_call.id ,
+                    "content": date
+                })
+                continue
+        else:
+            return msg.content
 
 # --------- Helper Function -----------
 def llm_json(prompt: str, model_openai="gpt-4o-mini",model_ollama="llama4") -> str:
