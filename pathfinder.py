@@ -10,7 +10,7 @@ from ollama import chat
 from ollama import ChatResponse
 
 # --------- choose backend ----------
-USE_OLLAMA = True
+USE_OLLAMA = False
 
 # --------- OpenAI ---------------
 if not USE_OLLAMA:
@@ -180,11 +180,12 @@ def render_md(data: dict, template_name: str, template_path="templates") -> str:
     template = env.get_template(template_name)
     return template.render(data)
 
-def main():
+def pathfinder(jd: str):
     load_dotenv()
-    jd_path = "job_description.txt"
-    with open(jd_path) as f:
-        jd = f.read()
+    if not jd:
+        jd_path = "job_description.txt"
+        with open(jd_path) as f:
+            jd = f.read()
 
     # 1) Extract structure
     print("\n[bold yellow]Extracting requirements...[/bold yellow]")
@@ -193,6 +194,11 @@ def main():
     # 2) Generate fictitious resume
     print("[bold yellow]Generating fictitious resume...[/bold yellow]")
     resume_json = llm_json(RESUME_PROMPT.format(structured_requirements=json.dumps(structure, indent=2)))
+
+    # # 2.1) Save json as well
+    # out_path_resume_json = "ui/resume_data.json"
+    # with open(out_path_resume_json, "w") as f:
+    #     f.write(json.dumps(resume_json))
 
     # 3) Render Resume
     print("[bold yellow]Rendering resume markdown...[/bold yellow]")
@@ -224,6 +230,7 @@ def main():
 
     print(f"\n[bold green]Done![/bold green] → {out_path_resume_pdf, out_path_cover_letter_pdf}")
     print("\n[dim]Heads-up: Using fictitious credentials to actually apply can be unethical or violate terms. Use responsibly.[/dim]")
+    return resume_json, cover_letter_json
 
 def save_file(in_path: str, out_path: str):
     try:
@@ -238,6 +245,9 @@ def save_file(in_path: str, out_path: str):
     except Exception as e:
         print(f"Error while generating {out_path} pdf. {e}")
 
+def add_to_db():
+
+
 if __name__ == "__main__":
-    main()
+    pathfinder(jd=None)
     # print(call_ollama("llama4", "What is the date today?"))
