@@ -1,102 +1,107 @@
-Full-Stack Platform Developer
-JMT Consultants
-Winnipeg, MB
+Affirm logo
+Affirm
+Share
+Show more options
+Software Engineer II (Account Management) 
+Winnipeg, MB · 1 week ago · 10 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
 
 
-1-Click Apply
+ Full-time
+Matches your job preferences, job type is Full-time.
 
+Apply
 
-Full-time
+Save
+Save Software Engineer II (Account Management)  at Affirm
+Software Engineer II (Account Management)
+Affirm · Winnipeg, MB
 
-Posted 4 days ago
+Apply
 
-Job description
-Salary:
-JMT Consultants Inc. Winnipeg
+Save
+Save Software Engineer II (Account Management)  at Affirm
+Show more options
+Your profile matches several required qualifications
 
+Show match details
 
+BETA
 
-Full-Time Permanent Position
-
-
-
-The Future of AEC Isn't About Buying SoftwareIt's About Building It.
-
-
-
-For too long, the AEC industry has been constrained by monolithic, one-size-fits-all software. This "kitchen-sink" model stifles innovation and locks firms into black-box solutions.
-
-At JMT Consultants, we are a Global Structural Consulting Firm, renowned for innovation and precision and we believe this paradigm is broken.
-
-
-
-We see a fundamental shift happening a move toward a more open, connected, and customized digital future. Instead of being passive consumers, we are becoming active creators of our own technology, building lightweight, powerful applications that perfectly match our unique project delivery workflows.
-
-
-
-We have already started this journey and we're looking for a skilled Full-Stack Developer to be a driving force in this transformation, building powerful, integrated, multi-platform tools that give us a decisive edge.
+Is this information helpful?
 
 
 
-Are you ready to stop just using the tools and start building the future?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
 
-What youll do:
+Retry Premium for CA$0
+People you can reach out to
+Clyde profile photo
+Clyde profile photo
+Clyde Grey 
+· 2nd
+Staff Software Engineer at Affirm
+School alum from The University of Winnipeg
 
+Connect
+About the job
+Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
 
+Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
 
-Build & Implement: Design, develop, and deploy key backend and frontend components of our next-generation AEC platform, seamlessly integrating desktop and web technologies
-Own the Data Pipeline: Implement and manage robust data workflows using modern data exchange platforms and open APIs to ensure seamless interoperability between our diverse design applications
-Create Powerful Visualizations: Develop high-performance, web-based 3D/BIM data visualization and manipulation features, bringing complex project data to life in the browser
-Integrate Intelligence: Develop and integrate Artificial Intelligence (AI) and Machine Learning (ML) models to create powerful, predictive, and automated workflows
-Collaborate for Impact: Work directly with our engineers and detailers to understand their unique challenges and build the exact solutions they need to excel
+What You'll Do
 
+ With the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.
+ You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.
+ You will support the operations and availability of your team’s artifacts by creating and monitoring metrics, escalating when needed, and supporting “keep the lights on” & on-call efforts.
+ You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process.
 
-What Were Looking for:
+What We Look For
 
+ You have a total of 1.5+ years of experience as a software engineer.
+ You have experience designing, developing and launching backend systems and are proficient in one of Python or Kotlin.
+ You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.
+ You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.
+ You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.
+ Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.
+ You have strong verbal and written communication skills that support effective collaboration with our global engineering team.
 
+Pay Grade - L
 
-3-5+ years of professional experience as a full-stack developer with proficiency in C#, the .NET Framework (WPF, ASP.NET), and SQL
-Proven experience building and maintaining web applications with modern frameworks like Angular and TypeScript
-Experience with cloud platforms (Microsoft Azure) and CI/CD processes, particularly using Azure DevOps for managing source control, pipelines, and deployments
-A genuine interest in, and ideally some experience with, AEC-specific platforms, open-source 3D/BIM libraries, or applied AI
-You are a strong independent contributor who also thrives in a collaborative team environment
-A track record of shipping software and owning features from conception to deployment
+Equity Grade - 5
 
+Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.
 
-Why Start a Career with Us?
+Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company).
 
+CAN base pay range per year: $125000 - $175000
 
+Additional Benefits Include
 
-Be a Pioneer: This isn't a typical software development role. You will be at the forefront of a movement, fundamentally changing how an established AEC firm operates.
+ Flexible Spending Wallets for tech, food and lifestyle
+ Away Days - wellness days to take off work and recharge
+ Learning & Development programs
+ Parental benefits
+ Employee Resource & Community Groups
 
-Direct Impact: Your work will directly empower our teams, improve project outcomes, and give our companies a significant competitive edge.
+Please note that visa sponsorship is not available for this position.
 
-Innovation Culture: Join a team that rejects the status quo and is actively investing in an open, modern, and intelligent tech stack.
+LI-Remote
 
-Career Growth: This is a chance to become a leader in the growing field of AEC technology and software development from within the industry.
+Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities.
 
-Exciting Times Ahead: We are on the cusp of some major developments. You'll be joining at the perfect time to contribute to and be a part of these exciting announcements.
+Benefits
 
+We’re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:
 
+Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents 
+Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses
+Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge
+ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount
 
-If you are a developer who wants to build more than just another application if you want to build the future of an entire industry we encourage you to apply.
+We believe It’s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process.
 
+[For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records.
 
-
-Must Haves:
-
-
-
-A bachelor's degree or a combination of proven skills and experience will be considered.
-Canadian Citizenship/Legally able to work in Canada
-
-
-Leap into Action
-
-
-
-Ready to join the JMT family? Apply with gusto! Click the link to submit your Cover Letter and Resume, showcasing your journey as a Full-Stack Platform Developer.
-
-
-
-We appreciate the time all candidates take to apply, but well only reach out to those who make the shortlist for an interview.
+By clicking "Submit Application," you acknowledge that you have read Affirm's Global Candidate Privacy Notice and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.
