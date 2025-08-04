@@ -3,3 +3,15 @@ prompts.py
 .venv/
 .idea/
 __pycache__/
+ui/resume_data.json
+# Add these to protect personal information:
+*.pdf
+generated_*.md
+job_description.txt
+completed.json
+email.txt
+filter.py
+job.json
+jobs_v2.json
+pfjb.py
+server.py
